@@ -2,12 +2,12 @@
 
 import 'dart:developer';
 
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/CoasterManagementApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostProvidersApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostSessionsApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostSpotifyApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/UserEndpoints/UserApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/CoasterManagementApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/HostProvidersApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/HostSessionsApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/HostSpotifyApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/UserEndpoints/UserApi.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../main.dart';

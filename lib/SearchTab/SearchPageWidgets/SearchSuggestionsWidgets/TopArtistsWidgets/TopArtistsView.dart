@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Artist.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/SearchSuggestionsWidgets/TopArtistsWidgets/ArtistComponent.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Artist.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/SearchSuggestionsWidgets/TopArtistsWidgets/ArtistComponent.dart';
 
 class TopArtistsView extends StatefulWidget {
 

@@ -1,5 +1,5 @@
 
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
 
 import 'Objects/Artist.dart';
 import 'Objects/Playlist.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndFunctions.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageDecision.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndFunctions.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageDecision.dart';
 
 
 class ActiveSongComponent extends StatefulWidget {

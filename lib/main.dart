@@ -5,13 +5,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GetVersionApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/CoreUserAttributes.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/CheckCoasterDeepLink.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/ConnectSpotify.dart';
-import 'package:fonz_music_flutter/MainTabs/HostTab.dart';
-import 'package:fonz_music_flutter/MainTabs/SearchTab.dart';
-import 'package:fonz_music_flutter/MainTabs/SettingsPage.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GetVersionApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/CoreUserAttributes.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/CheckCoasterDeepLink.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/ConnectSpotify.dart';
+import 'package:fonz_music_instant_app/MainTabs/SearchTab.dart';
+
 import 'package:package_info/package_info.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uni_links/uni_links.dart';
@@ -19,7 +18,7 @@ import 'package:uni_links/uni_links.dart';
 import 'ApiFunctions/HostApi/HostProvidersApi.dart';
 import 'ApiFunctions/HostApi/HostSessionsApi.dart';
 import 'GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'MustUpdateApp.dart';
+import 'MainTabs/MustUpdateApp.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -239,52 +238,17 @@ class _MyHomePageState extends State<MyHomePage> {
     final Brightness brightnessValue = MediaQuery.of(context).platformBrightness;
     darkMode = brightnessValue == Brightness.dark;
 
-    List<Widget> _children = [
-      HostTab(),
-      SearchTab(currentTab: currentTab, notifyParent: refresh),
-      SettingsPage(notifyParent: refresh,)
-    ];
-
-
-
     return
        DefaultTabController(
         length: 3,
         child: Scaffold(
           resizeToAvoidBottomInset: false,
           backgroundColor: Colors.transparent,
-          body: _children[currentTab], // new
+          body: SearchTab(currentTab: currentTab, notifyParent: refresh), // new
           // body: ,
-          bottomNavigationBar: BottomNavigationBar(
-            currentIndex: currentTab,
-            selectedItemColor: AMBER,
-            unselectedItemColor: determineColorThemeTextInverse(),
-            backgroundColor: determineColorThemeBackground(),
-            onTap: onTabTapped,// this will be set when a new tab is tapped
-            items: [
-              BottomNavigationBarItem(
-                icon: new Icon(Icons.home),
-                label: 'host',
-              ),
-              BottomNavigationBarItem(
-                icon: new Icon(Icons.search),
-                label: 'search',
-              ),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.settings),
-                  label: 'settings',
-              )
-            ],
-          ),
+
         ),
             );
 
-  }
-
-  // updates the currentIndex
-  void onTabTapped(int index) {
-    setState(() {
-      currentTab = index;
-    });
   }
 }

@@ -2,10 +2,10 @@
 
 import 'dart:developer';
 
-import 'package:fonz_music_flutter/ApiFunctions/SpotifySuggestionInterpreter.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Artist.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Playlist.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/SpotifySuggestionInterpreter.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Artist.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Playlist.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
 
 List<Track> tracksToList(tracks) {
   List<Track> trackList = [];

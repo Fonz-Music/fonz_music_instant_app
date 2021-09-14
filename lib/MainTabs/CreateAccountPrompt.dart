@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/CreateAccountViews/CreateAccountView.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/CreateAccountViews/CreateAccountView.dart';
 
 class CreateAccountPrompt extends StatefulWidget {
 

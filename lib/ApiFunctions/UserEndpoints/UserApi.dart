@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:fonz_music_flutter/ApiFunctions/AuthMethods.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/AuthMethods.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../ApiConstants.dart';

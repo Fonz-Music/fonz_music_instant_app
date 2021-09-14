@@ -2,10 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-import 'package:fonz_music_flutter/ApiFunctions/UserEndpoints/AuthApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/HostTab/CoasterDashboardViews/CoasterDashboardView.dart';
-
+import 'package:fonz_music_instant_app/ApiFunctions/UserEndpoints/AuthApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
 import '../../../main.dart';
 
 
@@ -219,7 +217,7 @@ class _SignInViewState extends State<SignInView> {
 
 
                 // check if user has coasters
-                updatePageCoasterDashboard = true;
+                // updatePageCoasterDashboard = true;
                 // pop modal
                 widget.notifyParent();
                 Navigator.pop(widget.popupContext);

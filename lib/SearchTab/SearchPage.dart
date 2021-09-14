@@ -3,17 +3,16 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/CoreUserAttributes.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/TapYourPhoneBlack.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalSessionVariables.dart';
-import 'package:fonz_music_flutter/HostTab/TapYourPhoneLilac.dart';
-import 'package:fonz_music_flutter/MainTabs/SearchTab.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueFailNotSameCoaster.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/CoreUserAttributes.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/TapYourPhoneBlack.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalSessionVariables.dart';
+import 'package:fonz_music_instant_app/MainTabs/SearchTab.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueFailNotSameCoaster.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
 
 import 'SearchPageWidgets/ActiveSongWidgets/ActiveSongView.dart';
 import 'SearchPageWidgets/SearchBarWidgets/SearchBar.dart';

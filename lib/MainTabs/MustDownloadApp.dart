@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'GlobalComponents/FrontEnd/FrontEndConstants.dart';
 
 
-class MustUpdateApp extends StatelessWidget {
+class MustDownloadApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
@@ -52,7 +52,7 @@ class MustUpdateApp extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(bottom: 25),
                         child: Text(
-                          "you must download the newest app version",
+                          "you must download the Fonz Music app",
                           style: TextStyle(
                               fontFamily: FONZFONTFOUR,
                               fontSize: 26,

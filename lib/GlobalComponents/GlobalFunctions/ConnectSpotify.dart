@@ -2,9 +2,9 @@
 
 import 'dart:developer';
 
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostProvidersApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostSessionsApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/SpotifyEndpoints/SpotifySignInApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/HostProvidersApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/HostSessionsApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/SpotifyEndpoints/SpotifySignInApi.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 

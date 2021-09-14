@@ -3,21 +3,8 @@ import 'dart:developer';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-import 'package:fonz_music_flutter/ApiFunctions/ApiConstants.dart';
-import 'package:fonz_music_flutter/ApiFunctions/AuthMethods.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestGetCoasterApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/HostProvidersApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/SpotifyEndpoints/SpotifySignInApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/SpotifyEndpoints/SpotifySuggestionsApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/ConnectSpotify.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/LaunchShop.dart';
-import 'package:fonz_music_flutter/MainTabs/CreateAccountPrompt.dart';
-import 'package:fonz_music_flutter/MainTabs/HostTab.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/scanForCoasterDetails.dart';
-import 'package:fonz_music_flutter/SettingsTab/SettingsButtons/CreateAccountSettingsButton.dart';
-
-import '../../main.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/LaunchShop.dart';
 
 
 

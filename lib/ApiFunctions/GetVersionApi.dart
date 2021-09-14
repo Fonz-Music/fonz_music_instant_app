@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-import 'package:fonz_music_flutter/GlobalComponents/ExceptionHandling.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/ExceptionHandling.dart';
 
 import 'ApiConstants.dart';
 

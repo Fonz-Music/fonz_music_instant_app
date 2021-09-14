@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'dart:developer';
 
-import 'package:fonz_music_flutter/GlobalComponents/ExceptionHandling.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/ExceptionHandling.dart';
 
 
 import 'package:nfc_in_flutter/nfc_in_flutter.dart';

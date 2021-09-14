@@ -4,19 +4,19 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalSessionVariables.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/CoasterObject.dart';
-import 'package:fonz_music_flutter/MainTabs/SearchTab.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/ConnectSpotifyHomePage.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalSessionVariables.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/CoasterObject.dart';
+import 'package:fonz_music_instant_app/MainTabs/SearchTab.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/ConnectSpotifyHomePage.dart';
 
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/HomePageResponses/FailPartyJoin.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/HomePageResponses/SuccessAddCoasterNoHost.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/HostAPartyButton.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/JoinAPartyButton.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageWidgets/HomePageResponses/JoinSuccessfulCircle.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/TapYourPhoneAmber.dart';
-import 'package:fonz_music_flutter/main.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/HomePageResponses/FailPartyJoin.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/HomePageResponses/SuccessAddCoasterNoHost.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/HostAPartyButton.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/JoinAPartyButton.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageWidgets/HomePageResponses/JoinSuccessfulCircle.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/TapYourPhoneAmber.dart';
+import 'package:fonz_music_instant_app/main.dart';
 
 import 'HomePageWidgets/BuyACoasterHomeButton.dart';
 import 'HomePageWidgets/HomePageResponses/CoasterHasNoHost.dart';

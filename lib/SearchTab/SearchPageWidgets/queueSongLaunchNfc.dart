@@ -6,17 +6,17 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
 
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/CoreUserAttributes.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalSessionVariables.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
-import 'package:fonz_music_flutter/NfcFunctions/GuestNfcFunctions.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageDecision.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
-import 'package:fonz_music_flutter/main.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/CoreUserAttributes.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalSessionVariables.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
+import 'package:fonz_music_instant_app/NfcFunctions/GuestNfcFunctions.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageDecision.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
+import 'package:fonz_music_instant_app/main.dart';
 
 import '../SearchPage.dart';
 //

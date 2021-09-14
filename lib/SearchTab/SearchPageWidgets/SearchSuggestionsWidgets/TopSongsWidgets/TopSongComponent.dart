@@ -1,12 +1,12 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndFunctions.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndFunctions.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
 
 import '../../queueSongLaunchNfc.dart';
-// import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/SearchFunctions/QueueSongLaunchNFc.dart';
+// import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/SearchFunctions/QueueSongLaunchNFc.dart';
 
 class TopSongComponent extends StatefulWidget {
 

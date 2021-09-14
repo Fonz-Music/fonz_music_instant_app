@@ -3,11 +3,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueFailNotSameCoaster.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueFailNotSameCoaster.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongFail.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueueSongSuccess.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/QueueSongResponses/QueuedButDelayed.dart';
 
 import '../../SearchPage.dart';
 //

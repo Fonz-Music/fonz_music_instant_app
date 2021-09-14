@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:fonz_music_flutter/ApiFunctions/UserEndpoints/AuthApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/UserEndpoints/AuthApi.dart';
 
 Future<String> getJWTAndCheckIfExpired() async {
 

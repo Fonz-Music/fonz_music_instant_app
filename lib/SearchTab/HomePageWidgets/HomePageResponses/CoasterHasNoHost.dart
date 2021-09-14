@@ -3,12 +3,11 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/ConnectSpotify.dart';
-import 'package:fonz_music_flutter/HostTab/CoasterDashboardViews/CoasterDashboardFields/RenameCoasterField.dart';
-import 'package:fonz_music_flutter/HostTab/HostFunctions.dart';
-import 'package:fonz_music_flutter/MainTabs/CreateAccountPrompt.dart';
-import 'package:fonz_music_flutter/main.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/ConnectSpotify.dart';
+import 'package:fonz_music_instant_app/MainTabs/CreateAccountPrompt.dart';
+import 'package:fonz_music_instant_app/MainTabs/MustDownloadApp.dart';
+import 'package:fonz_music_instant_app/main.dart';
 
 import '../../HomePageDecision.dart';
 
@@ -94,40 +93,7 @@ class _CoasterHasNoHostState extends State<CoasterHasNoHost> {
               child: FlatButton(
                 onPressed: () async {
 
-                  log("pressed connect");
-                  // user has account
-                  if (userAttributes.getHasAccount()) {
-                    log("has acc");
-                    // if user has spot
-                    if (userAttributes.getConnectedToSpotify()) {
-                      log("has spot");
-                      log("uid nefore is " + widget.coasterUid);
-                      hostCoasterDetails = await addCoasterWithoutTapping(widget.coasterUid);
-                      log("status code is " + hostCoasterDetails.statusCode.toString());
-                      // if added success
-                      if (hostCoasterDetails.statusCode == 204) {
-                        // throw rename modal
-                        await showDialog(
-                            context: context,
-                            builder: (popupContext) {
-                              return RenameCoasterField(coasterUid: widget.coasterUid, popupContext: popupContext, coasterName: hostCoasterDetails.coasterName,);
-                            }
-                        );
-                        hostCoasterDetails.statusCode = 201;
-                        widget.notifyParent();
-                      }
-                    }
-                    // else prompt to connect spot
-                    else {
-                      log("no spot");
-                      await connectSpotify();
-                      // link to spotify
-                      await userAttributes.determineIfUserConnectedToSpotify();
-                    }
-                  }
-                  // else prompt to create acc
-                  else {
-                    log("no acc");
+                  // else prompt to download app
                     showModalBottomSheet<dynamic>(context: context,
                         isScrollControlled: true,
                         builder: (BuildContext bc) {
@@ -143,13 +109,12 @@ class _CoasterHasNoHostState extends State<CoasterHasNoHost> {
                                                 25.0),
                                             topRight: const Radius.circular(
                                                 25.0))),
-                                    child: CreateAccountPrompt(notifyParent: widget.notifyParent, popupContext: bc),
+                                    child: MustDownloadApp(),
                                   ),
                                 )
                               ]
                           );
                         });
-                  }
 
                   // Timer(Duration(seconds: 1),
                   //         () => widget.loginCallback());

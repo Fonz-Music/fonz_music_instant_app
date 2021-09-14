@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'dart:io';
 import 'dart:convert';
 import 'package:dio/dio.dart';
-import 'package:fonz_music_flutter/ApiFunctions/AuthMethods.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/AuthMethods.dart';
 
 import '../ApiConstants.dart';
 // import 'package:http/http.dart' as http;

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
-import 'package:fonz_music_flutter/HostTab/TapYourPhoneLilac.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
 
 import '../../../SearchPage.dart';
 import '../../TrackButton.dart';

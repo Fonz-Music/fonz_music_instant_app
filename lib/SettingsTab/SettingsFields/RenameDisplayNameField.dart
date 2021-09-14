@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'dart:developer';
 
 import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:fonz_music_flutter/ApiFunctions/HostApi/CoasterManagementApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/HostApi/CoasterManagementApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
 
 class RenameDisplayNameField extends StatefulWidget {
 

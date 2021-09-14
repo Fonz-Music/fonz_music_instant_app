@@ -2,9 +2,9 @@
 import 'dart:developer';
 
 import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestGetCoasterApi.dart';
-import 'package:fonz_music_flutter/MainTabs/SearchTab.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageDecision.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestGetCoasterApi.dart';
+import 'package:fonz_music_instant_app/MainTabs/SearchTab.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageDecision.dart';
 
 import '../../main.dart';
 import '../CoreUserAttributes.dart';

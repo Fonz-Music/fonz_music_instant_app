@@ -2,15 +2,15 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
-import 'package:fonz_music_flutter/ApiFunctions/SpotifySuggestionInterpreter.dart';
-import 'package:fonz_music_flutter/ApiFunctions/UserTopTracksResponse.dart';
-import 'package:fonz_music_flutter/GlobalComponents/ExceptionHandling.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/CoreUserAttributes.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/SpotifyResultsFunctions.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalSessionVariables.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/GuestApi/GuestSpotifyApi.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/SpotifySuggestionInterpreter.dart';
+
+import 'package:fonz_music_instant_app/GlobalComponents/ExceptionHandling.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/CoreUserAttributes.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/SpotifyResultsFunctions.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalSessionVariables.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
 
 import '../TrackButton.dart';
 import 'SearchBar.dart';

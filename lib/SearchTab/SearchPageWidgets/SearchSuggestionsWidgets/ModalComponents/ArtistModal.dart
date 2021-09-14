@@ -1,15 +1,14 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/ApiFunctions/SpotifyEndpoints/SpotifySuggestionsApi.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalFunctions/SpotifyResultsFunctions.dart';
-import 'package:fonz_music_flutter/GlobalComponents/GlobalSessionVariables.dart';
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Artist.dart';
+import 'package:fonz_music_instant_app/ApiFunctions/SpotifyEndpoints/SpotifySuggestionsApi.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalFunctions/SpotifyResultsFunctions.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/GlobalSessionVariables.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Artist.dart';
 
-import 'package:fonz_music_flutter/GlobalComponents/Objects/Track.dart';
-import 'package:fonz_music_flutter/HostTab/TapYourPhoneLilac.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPageWidgets/TrackButton.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/Objects/Track.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPageWidgets/TrackButton.dart';
 
 import '../../../SearchPage.dart';
 import '../DetermineQueueSongResps.dart';

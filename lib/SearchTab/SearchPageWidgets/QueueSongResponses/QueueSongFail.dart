@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fonz_music_flutter/GlobalComponents/FrontEnd/FrontEndConstants.dart';
-import 'package:fonz_music_flutter/SearchTab/HomePageDecision.dart';
-import 'package:fonz_music_flutter/SearchTab/SearchPage.dart';
+import 'package:fonz_music_instant_app/GlobalComponents/FrontEnd/FrontEndConstants.dart';
+import 'package:fonz_music_instant_app/SearchTab/HomePageDecision.dart';
+import 'package:fonz_music_instant_app/SearchTab/SearchPage.dart';
 
 class QueueSongFail extends StatefulWidget {
 
